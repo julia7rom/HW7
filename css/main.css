@@ -419,6 +419,14 @@
   fill: #FFFFFF;
 }
 
+.social-icons {
+  display: flex;
+}
+
+.social-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
 .li-button-portfolio :hover,
 .button-portfolio :focus {
   background-color: #2196F3;

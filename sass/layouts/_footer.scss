@@ -127,4 +127,10 @@
                 fill: #FFFFFF;
             }
 }
+.social-icons {
+            display: flex;
+        }
 
+.social-list-item:not(:last-child) {
+    margin-right: 10px;
+}
