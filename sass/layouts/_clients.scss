@@ -1,0 +1,26 @@
+.client {
+    padding-top: 94px;
+    justify-content: center;
+    align-items: center;
+}
+.client-a {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    cursor: pointer;
+    fill: #AFB1B8;
+    align-items: center;
+    justify-content: center;
+        &:hover,
+        &:focus {
+                fill: #2196F3;
+                border-color: #2196F3;
+            }
+}
+.client-ul {
+    display: flex;
+}
+.client-li:not(:last-child) {
+    margin-right: 30px;
+}

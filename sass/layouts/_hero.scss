@@ -1,0 +1,31 @@
+.herou {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url('../img/Img-personal.png');
+
+    text-align: center;
+    background-color: #C4C4C4;
+    background-size: 1600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    height: 600px;
+
+}
+
+
+
+.button {
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 1.88;
+        align-items: center;
+        letter-spacing: 0.06em;
+        color: #ffffff;
+        background-color: #2196f3;
+        cursor: pointer;
+        padding: 10px 32px;
+        border-radius: 4px;
+    }
